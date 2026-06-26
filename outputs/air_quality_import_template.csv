@@ -1,0 +1,3 @@
+ward,pm25,pm10,no2,so2,co,temperature,humidity,wind_speed,rainfall,traffic_count,vehicle_type,distance_km,lat,lng
+Central Ward,55,92,34,12,0.8,30,58,7,0,18000,car,12,28.6139,77.209
+Industrial Zone,78,130,52,18,1.1,32,50,5,0,26000,truck,18,28.67,77.23

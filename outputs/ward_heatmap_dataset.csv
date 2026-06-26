@@ -1,0 +1,9 @@
+ward,lat,lng,aqi,category,co2_tons_day,risk_score
+Central Business District,28.6139,77.299,125.0,Poor,82.4,74.6
+North Industrial Estate,28.6634,77.27264,134.3,Poor,83.9,78.3
+East Residential Belt,28.6839,77.209,144.5,Poor,94.1,85.8
+South Transit Corridor,28.6634,77.14536,161.6,Poor,123.7,100
+West Construction Zone,28.6139,77.119,168.1,Poor,119.0,100
+University Ward,28.5644,77.14536,189.9,Poor,137.9,100
+Riverfront Ward,28.5439,77.209,198.1,Poor,138.6,100
+Airport Logistics Zone,28.5644,77.27264,208.7,Very Poor,162.6,100

@@ -1,0 +1,5 @@
+vehicle_type,vehicle_count,distance_km,emission_factor_kg_per_km,daily_co2_tons,monthly_co2_tons,annual_co2_tons
+two_wheeler,11000,18,0.072,14.26,427.68,5203.44
+car,9000,22,0.192,38.02,1140.48,13875.84
+bus,1600,36,0.822,47.35,1420.42,17281.73
+truck,1200,42,1.25,63.0,1890.0,22995.0
