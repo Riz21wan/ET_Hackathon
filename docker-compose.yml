@@ -16,7 +16,7 @@ services:
       context: ./backend
     environment:
       DATABASE_URL: postgresql+psycopg://air_admin:air_admin@db:5432/air_quality
-      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173,https://ai-sp0f.onrender.com
     ports:
       - "8000:8000"
     depends_on:
