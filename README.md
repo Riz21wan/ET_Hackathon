@@ -25,7 +25,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
-API docs: http://localhost:8000/docs
+API docs:https://aqi-backend-xmkw.onrender.com
 
 ### Frontend
 
@@ -44,7 +44,7 @@ docker compose up --build
 ```
 
 - Frontend: http://localhost:5173
-- Backend: http://localhost:8000
+- Backend: https://aqi-backend-xmkw.onrender.com
 - PostgreSQL/PostGIS: localhost:5432
 
 ## Project Structure

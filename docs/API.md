@@ -1,6 +1,6 @@
 # API Documentation
 
-Base URL: `http://localhost:8000`
+Base URL: `https://aqi-backend-xmkw.onrender.com`
 
 | Method | Endpoint | Purpose |
 | --- | --- | --- |
