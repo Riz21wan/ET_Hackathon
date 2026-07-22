@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes import router
@@ -22,5 +22,8 @@ app.include_router(router, prefix="/api")
 
 
 @app.get("/")
+@app.head("/", include_in_schema=False)
+def health_check_head() -> Response:
+    return Response(status_code=200)
 def health_check() -> dict[str, str]:
     return {"status": "ok", "service": app.title}
