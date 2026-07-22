@@ -22,8 +22,10 @@ app.include_router(router, prefix="/api")
 
 
 @app.get("/")
+def health_check() -> dict[str, str]:
+    return {"status": "ok", "service": app.title}
+
+
 @app.head("/", include_in_schema=False)
 def health_check_head() -> Response:
     return Response(status_code=200)
-def health_check() -> dict[str, str]:
-    return {"status": "ok", "service": app.title}
